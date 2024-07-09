@@ -1,0 +1,521 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    border: 2px solid;
+    height: 70px;
+    display: flex;
+    background-color: #fff;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+}
+
+.navbar img {
+    padding: 8px;
+    flex-wrap: wrap;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.navbar ul li {
+    padding: 2px;
+    justify-content: space-between;
+}
+
+li:hover {
+    background-color: #bba61c;
+    color: #fff;
+    height: 30px;
+
+}
+
+.cantener {
+    border: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(0, 0, 40, 0.8), rgba(0, 0, 40, 0.8)), url(/img/2.jpg);
+    background-size: cover;
+    align-items: center;
+}
+
+.heading {
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.heading p {
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+.box {
+    flex-wrap: wrap;
+    width: 100px;
+    margin: 50px;
+    text-align: center;
+
+}
+
+.box h3 {
+    color: rgb(214, 216, 218);
+}
+
+.box p {
+    color: rgb(112, 110, 107);
+}
+
+
+
+@media only screen and (min-width:320px) {
+    .box {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .box {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .box {
+        width: 20%;
+    }
+}
+
+
+/* slaider */
+
+.slayder {
+    display: flex;
+    color: aliceblue;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(0, 0, 30, 0.4), rgba(0, 0, 30, 0.4)), url(/img/4.jpg);
+    background-size: cover;
+    height: 800px;
+    align-items: center;
+
+
+}
+
+.line1 {
+    height: 50px;
+    width: 20%;
+    margin: 35%;
+    text-align: center;
+}
+
+.slayder button {
+    background-color: rgb(193, 193, 9);
+    font-size: 20px;
+    height: 50px;
+    flex-wrap: wrap;
+    margin: 30px;
+    color: aliceblue;
+
+}
+
+/* for slaider */
+@media only screen and (min-width:320px) {
+    .line1 {
+        width: 50%;
+    }
+}
+
+/* this is about */
+
+.aboutbox {
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.aboutbox .textbox {
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.aboutbox .textbox span {
+    font-size: 30px;
+
+}
+
+.aboutbox .imgbox {
+    width: 50px;
+    height: 400px;
+}
+
+.aboutbox .imgbox img {
+    height: 400px;
+
+}
+
+
+/* all row */
+.aboutbox .textbox .row1 {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, orange 70%, grey 30%);
+}
+
+.aboutbox .textbox .row2 {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, orange 50%, grey 50%);
+}
+
+.aboutbox .textbox .row3 {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, orange 87%, grey 13%);
+}
+
+.aboutbox .textbox .row4 {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, orange 95%, grey 5%);
+}
+
+/* for about secshaion */
+@media only screen and (min-width:320px) {
+    .imgbox img {
+        width: 0%;
+
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .imgbox img {
+        width: 400px;
+
+    }
+}
+
+
+
+/* we are different */
+
+.infobox {
+    background-color: rgb(238, 243, 248);
+}
+
+.infobox .inbox {
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+/* box1 */
+.infobox .inbox .inerbox1 {
+    display: flex;
+
+}
+
+.infobox .inbox .inerbox1 .boxA {
+    padding: 10px;
+}
+
+.infobox .inbox .inerbox1 .boxA h3:hover {
+    color: rgb(176, 176, 18);
+}
+
+/* box2 */
+.infobox .inbox .inerbox2 {
+    display: flex;
+
+}
+
+.infobox .inbox .inerbox2 .boxB {
+    padding: 10px;
+}
+
+.infobox .inbox .inerbox2 .boxB h3:hover {
+    color: rgb(176, 176, 18);
+}
+
+/* box3 */
+.infobox .inbox .inerbox3 {
+    display: flex;
+}
+
+.infobox .inbox .inerbox3 .boxC {
+    padding: 10px;
+}
+
+.infobox .inbox .inerbox3 .boxC h3:hover {
+    color: rgb(176, 176, 18);
+}
+
+/* for infobox */
+@media only screen and (min-width:768px) {
+    .infobox {
+        display: flex;
+    }
+}
+
+
+/* clientbox */
+
+.clientbox {
+    background-color: hsl(235, 13%, 82%);
+    height: auto;
+    width: 100%;
+    display: inline-block;
+
+}
+
+.clientbox .allboxes {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.clientbox .clienttext {
+    padding: 20px;
+}
+
+.clientbox .clienttext h2 {
+    padding: 20px;
+}
+
+.clientbox .allboxes .cantener1 {
+    height: 50%;
+    width: 25%;
+    margin-top: 20%;
+}
+
+@media only screen and (min-width:1024px) {
+    .clientbox {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width:320px) {
+    .clientbox .allboxes {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .clientbox .allboxes {
+        display: flex;
+    }
+}
+
+/* what people say */
+.peoplebox {
+    background-image: linear-gradient(#000028cc, rgba(0, 0, 40, 0.8)), url(/img/p1.jpg);
+    background-size: cover;
+    flex-wrap: wrap;
+    color: #fff;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+.peoplebox .pclaint {
+    padding: 20px;
+
+}
+
+.peoplebox .pheding {
+    padding: 20px;
+}
+
+
+/* cards */
+body {
+
+    background-color: rgb(fff);
+}
+
+.container {
+    border: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 8);
+    justify-content: space-between;
+    margin: 20px;
+    height: 300px;
+}
+
+.container .box span {
+    font-size: 90px;
+}
+
+button {
+    font-size: 20px;
+    background-color: rgb(219, 209, 195);
+}
+
+@media only screen and(min-width: 768px) {
+    .box {
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .box {
+        width: 30%;
+    }
+}
+
+/* trainer box */
+
+.trainerbox {
+
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+.trainerbox .trainer1 {
+
+    flex-wrap: wrap;
+    text-align: center;
+    width: auto;
+    height: auto;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.8);
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.trainerbox .our {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width:768px) {
+    .trainer1 {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    .trainer1 {
+        width: 40%;
+    }
+}
+
+/* footer */
+footer {
+    background-color: rgb(5, 5, 33);
+    padding: 40px;
+    color: #fff;
+
+}
+
+.footerbox {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+/* logo */
+.footerbox .logobox {
+    flex-wrap: wrap;
+    text-align: center;
+    width: auto;
+    height: auto;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.8);
+    margin: 10px;
+    justify-content: space-between;
+
+}
+
+/* postbox */
+
+.footerbox .postbox {
+    justify-content: space-between;
+}
+
+.footerbox .postbox .fimg .ftext {
+    padding: 20px;
+}
+
+.footerbox .postbox .fimg .ftext span {
+    padding: 10px;
+    font-size: smaller;
+    color: #46468d;
+}
+
+.footerbox .postbox .fimg {
+    display: flex;
+}
+
+
+/* linkbox */
+.footerbox .linkbox .flist {
+    display: flex;
+
+}
+
+.footerbox .linkbox .flist ul {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.footerbox .linkbox .flist ul li {
+    padding: 10px;
+
+}
+
+/* contactbox */
+.contactbox h2 {
+    padding: 10px;
+}
+
+.contactbox h4 {
+    padding: 5px;
+}
+
+@media only screen and (min-width:320px) {
+    .footerbox {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .footerbox {
+        display: flex;
+    }
+
+    .footerbox.logobox {
+        width: 50%;
+    }
+}
